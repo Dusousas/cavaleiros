@@ -2,6 +2,9 @@
 
 @theme inline {
   --color-GreenD: #132C2A;
+  --color-BrownP: #8B4A4A;
+
+ 
   --color-foreground: var(--foreground);
   --font-Outfit: "Outfit", sans-serif;
   --font-Belleza: "Belleza", sans-serif;
@@ -27,4 +30,17 @@ body, html{
 
 p {
   font-family: "Outfit", sans-serif;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 30s linear infinite;
 }

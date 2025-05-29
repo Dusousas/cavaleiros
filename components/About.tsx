@@ -7,7 +7,7 @@ export default function About() {
                 <div className='maxW flex flex-col gap-10 lg:flex-row'>
                     <article className='lg:w-1/2'>
                         <p className='uppercase tracking-widest text-white'>Accato</p>
-                        <h1 className='font-Belleza text-white text-4xl'>Associacao do Clube dos Cavaleiros de Torrinha</h1>
+                        <h1 className='font-Belleza text-white text-4xl uppercase'>Associacao do Clube dos Cavaleiros de Torrinha</h1>
                         <p className='text-white mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae modi ipsam explicabo qui reiciendis? Facilis aut fugiat, distinctio harum dolore eos maxime sequi blanditiis ad nostrum facere tempora labore consequuntur.</p>
                         <p className='text-white mt-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae modi ipsam explicabo qui reiciendis? Facilis aut fugiat, distinctio harum dolore eos maxime sequi blanditiis ad nostrum facere tempora labore consequuntur.</p>
 
