@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-GreenD: #132C2A;
+  --color-foreground: var(--foreground);
+  --font-Outfit: "Outfit", sans-serif;
+  --font-Belleza: "Belleza", sans-serif;
+}
+
+body, html{
+  font-family: "Outfit", sans-serif;
+}
+
+.maxW {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.bgDepo {
+  background-image: url('/depo-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+}
