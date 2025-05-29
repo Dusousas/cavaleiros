@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <>
-            <section className='py-20 bg-GreenD'>
+            <section id='about' className='py-20 bg-GreenD'>
                 <div className='maxW flex flex-col gap-10 lg:flex-row'>
                     <article className='lg:w-1/2'>
                         <p className='uppercase tracking-widest text-white'>Accato</p>

@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Galery from "@/components/Galery";
 import Main from "@/components/Main";
 import Partners from "@/components/Partners";
@@ -12,6 +13,7 @@ export default function Home() {
       <Testimonials />
       <Partners />
       <Galery />
+      <Contact />
     </>
   );
 }

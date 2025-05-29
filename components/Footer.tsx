@@ -3,9 +3,9 @@ import React from 'react';
 export default function Footer() {
     return (
         <>
-            <section className='bg-amber-900 py-4'>
+            <section className='bg-BrownP py-6'>
                 <div className='maxW'>
-                    <p className='text-center'>Todos os direitos reservados</p>
+                    <p className='text-center text-white'>© Accato  - Todos os direitos reservados</p>
                 </div>
             </section>
         </>

@@ -29,7 +29,7 @@ export default function Galery() {
 
   return (
     <>
-      <section className='py-20'>
+      <section id='galery' className='py-20'>
         <div className='maxW flex flex-col items-center justify-center'>
           <p className='uppercase tracking-widest text-black'>Accato</p>
           <h1 className='font-Belleza text-black text-4xl uppercase'>Galeria</h1>
